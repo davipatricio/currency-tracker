@@ -3,10 +3,8 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  gap: 10px;
 
-  padding: 16px;
+  padding: 15px;
 
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -17,6 +15,7 @@ export const Container = styled.div`
   width: 100%;
 
   svg {
+    margin-right: 10px;
     height: 48px;
     width: 48px;
   }
